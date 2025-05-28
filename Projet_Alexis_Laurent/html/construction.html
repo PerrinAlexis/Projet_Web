@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Jardin sur les toits</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="../css/styleConstruction.css">
+    <script type="text/javascript" src="../js/construction.js"></script>
+</head>
+<body>
+    <header>
+        <nav class="naviguation">
+            <a href="accueil.html">Accueil</a>
+            <a href="apropos.html">À propos</a>
+            <a href="construction.html">Construction</a>
+            <a href="jardin.html">Votre Jardin</a>
+            <a href="connaissance.html">Connaissances</a>
+            <a href="Quiz.html">Quiz</a>
+        </nav>
+
+        <a href="#">
+            <img src="../img/banniere3.jpg" width="1000" height="400" class="image" alt="Image Jardin sur Toit">
+        </a>
+    </header>
+
+    <main>
+        <h1>Construisez votre Jardin</h1>
+        <p id="explication">Choisissez la taille du jardin puis placez vos plantes !</p>
+
+        <div >
+            <button onclick="choisirGrille('2x2')">Terrain 2x2</button>
+            <button onclick="choisirGrille('3x3')">Terrain 3x3</button>
+        </div>
+
+        <div id="zone-jardin">
+            <div class="grille">
+                <img id="image-jardin">
+                <div id="cases-container"></div>
+            </div>
+        </div>
+
+        <h2>Plantes disponibles</h2>
+        <div style="text-align:center;">
+            <img src="../img/Bebe_basilic-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_tomatecerise-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_Fraisier-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_Aloeverra-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_Carotte-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_menthe-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_oignonvert-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_poivronrouge-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_Radis-removebg-preview.png" class="plante" draggable="true" width="300">
+            <img src="../img/Bebe_Roquette-removebg-preview.png" class="plante" draggable="true" width="300">
+        </div>
+
+        <div>
+            <button onclick="validerJardin()">Valider mon jardin</button>
+        </div>
+    </main>
+
+    <footer>
+        <p>Projet Jardin sur les Toits - 2025</p>
+    </footer>
+
+
+</body>
+</html>
