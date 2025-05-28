@@ -1,1 +1,3 @@
-localStorage.getItem('pseudo');
+
+const config = JSON.parse(localStorage.getItem('jardinConfig'));
+

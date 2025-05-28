@@ -95,6 +95,7 @@ function handleDrop(e) {
     dropZone.appendChild(img);
 }
 
+
 // Valide le jardin et sauvegarde dans le localStorage
 function validerJardin() {
     if (!taille) {

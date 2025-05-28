@@ -11,6 +11,18 @@ body{
 
 }
 
+.bloc{
+    background-color: #e0f5e0;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 100px;
+    width: 80%;
+}
+h2 {
+    color: green;
+    font-size : 40px;
+    text-align: center;
+}
 .naviguation a{
     display: inline-block;
     padding: 10px 20px;
@@ -21,7 +33,16 @@ body{
     font-size: 20px;
     transition: 0.3s;
 }
-
+h1 {
+    color: green;
+    font-size : 50px;
+    text-align: center;
+}
+#explication {
+    color: green;
+    text-align: center;
+    font-size : 20px;
+}
 .naviguation a:hover {
     color: #e0f5e0; 
     background-color: green;
