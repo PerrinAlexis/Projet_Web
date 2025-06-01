@@ -10,6 +10,7 @@ body{
     padding: 20px;
 
 }
+
 .bloc{
     background-color: #e0f5e0;
     border-radius: 10px;
@@ -66,7 +67,7 @@ h2 {
     column-gap: 50px;
 }
 
-/* Grille jardin */
+
 .grille {
     display: grid;
     width: 600px;
@@ -78,7 +79,7 @@ h2 {
     height: 600px;
 }
 
-/* Les cases à planter */
+
 .drop-zone {
     border: 2px dashed green;
     background-color: rgba(255, 255, 255, 0.4);
